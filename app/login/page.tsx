@@ -40,7 +40,7 @@ export default function LoginPage() {
       {/* Left side - Form */}
       <div className="flex-1 flex flex-col justify-center px-8 sm:px-16 lg:px-24">
         <div className="max-w-sm w-full mx-auto flex flex-col gap-8">
-          
+
           {/* Header */}
           <div>
             <Link href="/" className="inline-flex items-center gap-2 mb-8 group">
@@ -82,10 +82,7 @@ export default function LoginPage() {
 
             <div className="flex flex-col gap-2">
               <div className="flex items-center justify-between">
-                <label
-                  className="text-sm font-medium text-slate-700"
-                  htmlFor="password"
-                >
+                <label className="text-sm font-medium text-slate-700" htmlFor="password">
                   Password
                 </label>
                 <Link
@@ -121,10 +118,7 @@ export default function LoginPage() {
           {/* Footer */}
           <p className="text-center text-slate-500 text-sm mt-4">
             Don&apos;t have an account?{" "}
-            <Link
-              href="/register"
-              className="text-slate-900 font-medium hover:underline"
-            >
+            <Link href="/register" className="text-slate-900 font-medium hover:underline">
               Sign up
             </Link>
           </p>
@@ -137,11 +131,11 @@ export default function LoginPage() {
 
         <div className="relative z-10 max-w-lg bg-white/10 backdrop-blur-xl p-10 rounded-[2rem] border border-white/10 shadow-2xl">
           <h2 className="text-2xl font-bold text-white mb-4">
-            "It literally saved our friendship."
+            It literally saved our friendship.
           </h2>
+
           <p className="text-slate-300 leading-relaxed mb-8">
-            Money gets awkward. SplitIt makes it transparent and fair. No more
-            reminding people to pay you back.
+            Money gets awkward. SplitIt makes it transparent and fair. No more reminding people to pay you back.
           </p>
 
           <div className="flex items-center gap-4">
@@ -149,9 +143,7 @@ export default function LoginPage() {
               <div className="w-full h-full bg-slate-900 rounded-full border-2 border-transparent" />
             </div>
             <div>
-              <div className="font-medium text-white text-sm">
-                Alex Johnson
-              </div>
+              <div className="font-medium text-white text-sm">Alex Johnson</div>
               <div className="text-xs text-slate-400">Power User</div>
             </div>
           </div>
